@@ -1,0 +1,78 @@
+body{
+    font-family: 'Open Sans';
+    
+    }
+
+.fundo{
+    background:url('../images/bg-desktop.svg') no-repeat ;
+    background-color: hsl(257, 40%, 49%);
+    max-width: 1440px;
+}
+
+.header .header-container{
+    padding: 50px 73px;
+}
+
+.conteudo{
+   display: flex;
+}
+
+.conteudo .image{
+    padding: 23px 73px;
+}
+
+.conteudo .texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo .texto h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 34px ;
+    
+}
+
+.conteudo .texto p{
+    font-size: 18px;
+    padding: 30px 31px;
+    color: #FFFFFF;
+}
+
+.conteudo .texto a{
+    display: flex;
+    align-self:flex-start;
+    margin: 0 20px;
+    background-color: #FFFFFF;
+    color:hsl(257, 40%, 49%);
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.conteudo .texto a:hover{
+    background-color:hsl(300, 69%, 71%) ;
+    color: #FFFFFF;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+.footer .social i{
+   padding-bottom: 40px;
+   padding-right: 50px;
+   font-size: 30px;
+   transition: 0.3s ease-in-out;
+}
+
+.footer .social i:hover{
+    color: hsl(300, 69%, 71%);
+}
+    
