@@ -1,4 +1,68 @@
 @media(max-width: 425px){
+    body{
+        background: url("../images/bg-mobile.svg") no-repeat;
+        background-color: hsl(257, 40%, 49%);
+        background-size: contain;
+        /* max-width: 425px;  */
+       
+        
+    }
+
+    .header img{
+        max-width: 150px;
+        margin: 35px;
+    }
+
+    .conteudo{
+        display:flex;
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .conteudo .image img{
+        max-width: 343px;
+        margin: 27px 42px;
+    }
+
+    .conteudo .texto{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+  .conteudo .texto h1{
+    font-size: 30px;
+    transform: translateX(35px);
+  }
+
+  .conteudo .texto p{
+    font-size: 19px;
+    transform: translateX(30px);
+  }
+
+  .conteudo .texto a{
+    font-size: 16px;
+    width: 240px;
+    height: 45px;
+  }
+
+  .footer .social i{
+    font-size: 15px;
+    transform: translateX(-70px);
+    margin-top: 25px;
+  }
+
+ 
+  
+
+
+
+   
+}
+
+
+
+/* @media(max-width: 425px){
     .fundo{
         background: url('../images/bg-mobile.svg') no-repeat;
         background-color: hsl(257, 40%, 49%);
@@ -48,10 +112,4 @@
     .footer .social i{
         padding: 50px 10px;
     }
-
- 
-
-
-
-
-}
+} */

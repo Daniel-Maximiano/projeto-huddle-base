@@ -1,78 +1,76 @@
 body{
+    background: url("../images/bg-desktop.svg") no-repeat;
+    background-color:  hsl(257, 40%, 49%);
     font-family: 'Open Sans';
-    
-    }
-
-.fundo{
-    background:url('../images/bg-desktop.svg') no-repeat ;
-    background-color: hsl(257, 40%, 49%);
     max-width: 1440px;
 }
 
-.header .header-container{
-    padding: 50px 73px;
+.header img{
+    margin: 50px 60px;
 }
 
 .conteudo{
-   display: flex;
-}
-
-.conteudo .image{
-    padding: 23px 73px;
-}
-
-.conteudo .texto{
     display: flex;
-    flex-direction: column;
+}
+
+.conteudo .image img{
+    margin: 20px 70px;
 }
 
 .conteudo .texto h1{
-    font-size: 40px;
+    font-size: 39px;
+    margin-top: 65px;
+    margin-right: 90px;
+    color: #ffffff;
     font-weight: 600;
-    color: #FFFFFF;
-    padding: 34px ;
-    
 }
 
 .conteudo .texto p{
+    margin-top: 35px;
+    margin-right: 70px;
     font-size: 18px;
-    padding: 30px 31px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .conteudo .texto a{
     display: flex;
-    align-self:flex-start;
-    margin: 0 20px;
     background-color: #FFFFFF;
     color:hsl(257, 40%, 49%);
     border-radius: 50px;
     width: 200px;
-    height: 50px;
+    height: 55px;
     justify-content: center;
     align-items: center;
+    font-size: 18px;
+    margin-top: 25px;
     transition: 0.3s ease-in-out;
 }
 
 .conteudo .texto a:hover{
-    background-color:hsl(300, 69%, 71%) ;
+    background-color: hsl(300, 69%, 71%);
     color: #FFFFFF;
 }
 
 .footer{
     display: flex;
-    justify-content: flex-end;
-   
+    justify-content: end;
+    margin-right: 60px;
 }
 
 .footer .social i{
-   padding-bottom: 40px;
-   padding-right: 50px;
-   font-size: 30px;
-   transition: 0.3s ease-in-out;
+    font-size: 20px;
+    margin: 10px;
+    transition: 0.3s ease-in-out;
 }
 
-.footer .social i:hover{
+.social a i{
+   border: 2px solid;
+   border-radius: 50%;
+   padding: 8px;
+}
+
+.footer a i:hover{
+    border-color: hsl(300, 69%, 71%);
     color: hsl(300, 69%, 71%);
 }
-    
+
