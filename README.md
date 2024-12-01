@@ -1,4 +1,10 @@
-# Huddle Landing Page
+# Huddle Landing Page Active-States
+
+[<img src="./src/images/Animação1.gif" alt="gif do projeto huddle ativo">](https://github.com/Daniel-Maximiano)
+
+# Huddle Landing Page Mobile-Design
+
+[<img src="./src/images/Screenshot_5.png" alt="imagem do projeto huddle mobile">](https://github.com/Daniel-Maximiano)
 
 Este é um projeto de uma landing page desenvolvida com HTML e CSS, para o curso Dev Quest.
 
