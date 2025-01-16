@@ -44,12 +44,12 @@
 
   .footer {
         justify-content: center;
-        margin: 60px 0;
+        margin: 150px 0;
     }
 
   .footer .social i{
     font-size: 15px;
-    margin: 5px
+    margin: -10px;
   }
  
 } 
